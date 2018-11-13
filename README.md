@@ -1,2 +1,2 @@
-# priviet-server
+# Priviet Server
 Private network chat server
