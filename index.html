@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Priviet Server</title>
+    </head>
+    <body>
+        <form action="/users" method="post">
+            <fieldset>
+                <legend>Register User</legend>
+                <div>
+                    <label for="email">Username</label>
+                    <input id="email" type="text" name="email">
+                </div>
+                <div>
+                    <label for="first_name">First Name</label>
+                    <input id="first_name" type="text" name="first_name">
+                </div>
+                <div>
+                    <label for="last_name">Last Name</label>
+                    <input id="last_name" type="text" name="last_name">
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input id="password" type="text" name="password">
+                </div>
+                <div>
+                    <label for="confirm_password">Confirm Password</label>
+                    <input id="confirm_password" type="text" name="confirm_password">
+                </div>
+            </fieldset>
+            <button type="submit" name="insert">Submit</button>
+        </form>
+    </body>
+</html>
