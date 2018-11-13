@@ -1,0 +1,28 @@
+{
+    "name": "priviet-server",
+    "version": "0.0.1",
+    "description": "Private network chat server",
+    "author": "Aleix Caminal <aleixcam96@gmail.com> (https://github.com/aleixcam/)",
+    "license": "MIT",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/aleixcam/priviet-server.git"
+    },
+    "bugs": {
+        "url": "https://github.com/aleixcam/priviet-server/issues"
+    },
+    "homepage": "https://github.com/aleixcam/priviet-server#readme",
+    "keywords": [
+        "chat"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "bin": {
+        "priviet": "index.js"
+    },
+    "dependencies": {
+        "socket.io": "^2.1.1"
+    }
+}
